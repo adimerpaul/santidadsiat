@@ -11,7 +11,7 @@ $codigoAmbiente = $siat['codigoAmbiente'];
 $codigoSistema = $siat['codigoSistema'];
 $codigoSucursal = $siat['codigoSucursal'];
 
-$contador = 1;
+$contador = 50;
 
 for ($i=0; $i < $contador; $i++) {
     $client = new \SoapClient("https://pilotosiatservicios.impuestos.gob.bo/v2/FacturacionSincronizacion?WSDL",  [

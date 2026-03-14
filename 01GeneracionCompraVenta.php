@@ -8,7 +8,7 @@ require_once __DIR__ . '/datos_generales.php';
 
 
 
-$siat = obtenerDatosSiat(0);
+$siat = obtenerDatosSiat(1);
 $codigoPuntoVenta = $siat['codigoPuntoVenta'];
 $codigoControl = $siat['codigoControl'];
 $cufd = $siat['cufd'];

@@ -11,20 +11,20 @@ date_default_timezone_set('America/La_Paz');
 function obtenerDatosSiat(int $codigoPuntoVenta): array
 {
     $config = [
-        'nit' => '5062436018',
-        'token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJjaGljaGFuYXR5QGdtYWlsLmNvbSIsImNvZGlnb1Npc3RlbWEiOiIzNzFGOTk2OTJEQTBERDRENDFERSIsIm5pdCI6Ikg0c0lBQUFBQUFBQUFETTFNRE15TVRZek1MUUFBSFYxSVZrS0FBQUEiLCJpZCI6NTIyNzQ1NSwiZXhwIjoxODA0ODMxMzQ1LCJpYXQiOjE3NzMzOTYxMTUsIm5pdERlbGVnYWRvIjo1MDYyNDM2MDE4LCJzdWJzaXN0ZW1hIjoiU0ZFIn0.Bf-_BNKpY_-AJyRvep6H_q3S_Eaqpm4xpalEe9vBY9AcojCVBA8tWlYNwpo8W_UVyRRGOO_rWJaKKES39XiEKA',
+        'nit' => '681781020',
+        'token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJjaGFtYmlhamh1YWNob2hpYmVyQGdtYWlsLmNvbSIsImNvZGlnb1Npc3RlbWEiOiIyMjczQzAzRkIxMjI4MDk0MDlFQkUiLCJuaXQiOiJINHNJQUFBQUFBQUFBRE96TURTM01EUXdNZ0FBQTVGbHpBa0FBQUE9IiwiaWQiOjUyMDYwODEsImV4cCI6MTgwNDgxODgwNCwiaWF0IjoxNzczNDY5OTc0LCJuaXREZWxlZ2FkbyI6NjgxNzgxMDIwLCJzdWJzaXN0ZW1hIjoiU0ZFIn0.HI9ycwa7CKaO-osac16syfq5H51RiPVJ154uLrs_F6ipGsQ53UgLrZTNkMd0vEitWTuDdjoCbPsW-p1EjZ5uhg',
         'codigoAmbiente' => 2,
-        'codigoSistema' => '371F99692DA0DD4D41DE',
+        'codigoSistema' => '2273C03FB122809409EBE',
         'codigoSucursal' => 0,
         'codigoModalidad' => 2,
         'puntosVenta' => [
             0 => [
-                'cuis' => 'F498F4FF',
+                'cuis' => '99EE0FB9',
                 'cufd' => 'FBQT5Ca1lHRkE=EwREQ0RDQxREU=QzlXVVJHT0RhVUMzcxRjk5NjkyRE',
                 'codigoControl' => '12A0051BB5AAF74',
             ],
             1 => [
-                'cuis' => '6ED780F4',
+                'cuis' => 'BE15BC8E',
                 'cufd' => 'JBQT5Ca1lHRkE=EwREQ0RDQxREU=Q3lXa1JHT0RhVUMzcxRjk5NjkyRE',
                 'codigoControl' => '812F351BB5AAF74',
             ],

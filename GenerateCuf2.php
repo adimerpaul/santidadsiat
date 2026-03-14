@@ -12,7 +12,7 @@ $codigoSistema = $siat['codigoSistema'];
 $codigoSucursal = $siat['codigoSucursal'];
 $modalidad = $siat['codigoModalidad'];
 
-$contador = 125;
+$contador = 100;
 
 for ($i=0; $i < $contador; $i++) {
     $client = new \SoapClient("https://pilotosiatservicios.impuestos.gob.bo/v2/FacturacionCodigos?WSDL",  [
