@@ -9,17 +9,17 @@ require_once __DIR__ . '/datos_generales.php';
 
 
 //3573986
-$siat = obtenerDatosSiat(0);
+$siat = obtenerDatosSiat(1);
 $codigoPuntoVenta = $siat['codigoPuntoVenta'];
 $codigoControl = $siat['codigoControl'];
 $cufd = $siat['cufd'];
 $cuis = $siat['cuis'];
 
 
-$cantidad=1;
+$cantidad=500;
 $codigoMotivoEvento=4;
-$h="06";
-$m="23";
+$h="02";
+$m="51";
 $s="00";
 
 //$codigoEvento=3629231;
@@ -128,8 +128,8 @@ for ($y=1;$y<=10;$y++){
         <codigoDocumentoSector>1</codigoDocumentoSector>
     </cabecera>
     <detalle>
-        <actividadEconomica>1102200</actividadEconomica>
-        <codigoProductoSin>1000701</codigoProductoSin>
+        <actividadEconomica>4772100</actividadEconomica>
+        <codigoProductoSin>1003655</codigoProductoSin>
         <codigoProducto>JN-131231</codigoProducto>
         <descripcion>JUGO DE NARANJA EN VASO</descripcion>
         <cantidad>1</cantidad>

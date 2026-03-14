@@ -8,7 +8,7 @@ require_once __DIR__ . '/datos_generales.php';
 
 
 
-$siat = obtenerDatosSiat(1);
+$siat = obtenerDatosSiat(0);
 $codigoPuntoVenta = $siat['codigoPuntoVenta'];
 $codigoControl = $siat['codigoControl'];
 $cufd = $siat['cufd'];
@@ -137,8 +137,8 @@ for ($i=1;$i<=$cantidad;$i++){
         <codigoDocumentoSector>1</codigoDocumentoSector>
     </cabecera>
     <detalle>
-        <actividadEconomica>1102200</actividadEconomica>
-        <codigoProductoSin>1000701</codigoProductoSin>
+        <actividadEconomica>4772100</actividadEconomica>
+        <codigoProductoSin>1003655</codigoProductoSin>
         <codigoProducto>JN-131231</codigoProducto>
         <descripcion>JUGO DE NARANJA EN VASO</descripcion>
         <cantidad>1</cantidad>
